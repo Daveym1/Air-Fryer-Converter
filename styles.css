@@ -16,8 +16,66 @@ body {
 }
 
 .form {
+    width: 50%;
     padding-top: 1em;
-    display: flex;
-    border: 2px solid red;
-    justify-content: center;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
 }
+
+.oven {
+    padding: 0.5em;
+    padding: 1em;
+    margin: auto;
+    text-align: center;
+}
+
+select {
+    font-size: 20px;
+    text-align: center;
+}
+
+.select-selected {
+    background-color: DodgerBlue;
+  }
+
+  .inputs {
+    font-size: 20px;
+    margin:auto;
+    text-align: left;
+    width: 25%;
+  }
+
+  .temp,.time {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .convert_btn {
+    width: 100%;
+    margin-top: 10%;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .separator {
+    width: 100%;
+    margin-top:10%;
+  }
+
+  .outputs {
+    width: 100%;
+    display: flex;
+    border: 1px solid yellow;
+    justify-content: center;
+  }
+
+  hr {
+    margin-bottom: 5%;
+  }
+
+  h2 {
+    padding-left : 8%;
+    padding-right: 8%;
+    
+  }

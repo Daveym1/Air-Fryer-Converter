@@ -11,14 +11,38 @@
 
 		<div class="form">
 			<form>
-				<label for="oven">Choose an Oven Type:</label>
-				<select id="oven" name="oven">
-					<option value="fan">Fan</option>
-					<option value="conventional">Conventional</option>
-					<option value="air">Air Fryer</option>
-				</select>
+				<div class="oven">
+					<label for="oven">Oven Type:</label>
+					<select id="oven" name="oven">
+						<optgroup class="optgroup">
+							<option selected="fan" class="option">Fan</option>
+							<option value="conventional" class="option">Conventional</option>
+							<option value="air" class="option">Air Fryer</option>
+						</optgroup>
+					</select>
+				</div>
 			</form>
 		</div>
+
+		<div class="inputs">
+			<div class="temp">
+				<label for="temp">Temperature ℃:</label>
+				<input id="temp" type="text" />
+			</div>
+			<br />
+			<div class="time">
+				<label for="time">Time:</label>
+				<input id="time" type="text" />
+			</div>
+			<button class="convert_btn">Convert</button>
+			<hr class="separator" />
+		</div>
+
+		<div class="outputs">
+			<h2>Oven 1</h2>
+			<h2>Oven 2</h2>
+		</div>
+
 		<script src="main.js"></script>
 	</body>
 </html>
